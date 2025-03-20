@@ -6,7 +6,17 @@ const mail = [
     'FrancescaBianchi@hotmail.com',
     'AndreaNeri@aol.com',
 ];
-const userMail = prompt('Inserisci la tua mail');
+let userMail;
+let validMail = false;
+// ciclo while per controllare se la mail inserita è valida
+while (!validMail) {
+    userMail = prompt('Inserisci la tua mail');
+    if (userMail.includes('@') && userMail.includes('.')) {
+        validMail = true;
+    } else {
+        alert('Mail non valida');
+    }
+}
 let found = false;
 // ciclo for per controllare se la mail inserita è presente nell'array
 for (let i = 0; i < mail.length; i++) {
