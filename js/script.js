@@ -1,4 +1,5 @@
 // Es 1 mail
+console.log('Mail');
 const mail = [
     'MarioRossi@gmail.com',
     'GiuseppeVerdi@yahoo.com',
@@ -19,3 +20,11 @@ if (found) {
 } else {
     console.log('La tua mail non è presente');
 }
+
+
+
+// Es 2 dadi
+console.log('Dadi');
+// generazione numeri random
+let userNumber = Math.floor(Math.random() * 6) + 1;
+let computerNumber = Math.floor(Math.random() * 6) + 1;
