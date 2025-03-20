@@ -5,3 +5,5 @@ const mail = [
     'FrancescaBianchi@hotmail.com',
     'AndreaNeri@aol.com',
 ];
+const mailUtente = prompt('Inserisci la tua mail');
+let mailTrovata = false;
