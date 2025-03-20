@@ -14,3 +14,8 @@ for (let i = 0; i < mail.length; i++) {
     }
 }
 // stampa del risultato
+if (found) {
+    console.log('La tua mail è presente');
+} else {
+    console.log('La tua mail non è presente');
+}
