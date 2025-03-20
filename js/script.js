@@ -28,3 +28,6 @@ console.log('Dadi');
 // generazione numeri random
 let userNumber = Math.floor(Math.random() * 6) + 1;
 let computerNumber = Math.floor(Math.random() * 6) + 1;
+// stampa dei numeri generati
+console.log('Il tuo numero è: ' + userNumber);
+console.log('Il numero del computer é: ' + computerNumber);
