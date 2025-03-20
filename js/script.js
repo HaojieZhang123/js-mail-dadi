@@ -5,5 +5,12 @@ const mail = [
     'FrancescaBianchi@hotmail.com',
     'AndreaNeri@aol.com',
 ];
-const mailUtente = prompt('Inserisci la tua mail');
-let mailTrovata = false;
+const userMail = prompt('Inserisci la tua mail');
+let found = false;
+// ciclo for per controllare se la mail inserita è presente nell'array
+for (let i = 0; i < mail.length; i++) {
+    if (userMail === mail[i]) {
+        found = true;
+    }
+}
+// stampa del risultato
