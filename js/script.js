@@ -31,3 +31,11 @@ let computerNumber = Math.floor(Math.random() * 6) + 1;
 // stampa dei numeri generati
 console.log('Il tuo numero è: ' + userNumber);
 console.log('Il numero del computer é: ' + computerNumber);
+// confronto dei numeri generati
+if (userNumber > computerNumber) {
+    console.log('Hai vinto!');
+} else if (userNumber < computerNumber) {
+    console.log('Hai perso!');
+} else {
+    console.log('Pareggio!');
+}
